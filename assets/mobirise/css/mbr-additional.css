@@ -2308,15 +2308,16 @@ section.lazy-placeholder:after {
   flex-direction: row;
   margin-right: 1.5rem;
 }
-#custom-html-35 {
+#custom-html-34 {
   /* Type valid CSS here */
 }
-#custom-html-35 div {
+#custom-html-34 div {
   padding: 0 0;
   color: #777;
   text-align: center;
+  z-index: 9999;
 }
-#custom-html-35 p {
+#custom-html-34 p {
   font-size: 60px;
   color: #777;
 }

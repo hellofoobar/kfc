@@ -35,7 +35,7 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "name": "KaMiFACE-clone",
+    "name": "KaMiFACE",
     "versionFirst": "4.11.6",
     "siteFonts": [
       {
@@ -76,7 +76,7 @@
         "main": true,
         "title": "KaMiFACE Vancouver",
         "meta_descr": "温哥华珈米医美",
-        "header_custom": "<style>\n#custom-html-1u div {\npadding: 0 !important;\n}\n</style>",
+        "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
@@ -1361,7 +1361,7 @@
             }
           },
           "_name": "footer2",
-          "_customHTML": "<section group=\"Footers\" global mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Additional</header>\n        <select title=\"Column Count\" name=\"showCard\">\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background9.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#f8e5e4\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container-fluid\">\n        <div class=\"d-flex justify-content-between\">\n            <div class mbr-if=\"showCard > 0\">\n                <ul mbr-text class=\"mbr-fonts-style mbr-list align-left\" data-app-selector=\".mbr-list\" mbr-theme-style=\"display-7\">\n                  <li>© KaMiFACE</li>\n                  <li>\n                </li></ul>\n              </div>\n           \n            <div class mbr-if=\"showCard > 1\">\n                <ul mbr-text class=\"mbr-fonts-style mbr-list\" data-app-selector=\".mbr-list\" mbr-theme-style=\"display-7\">2020 - All rights reserved. Made with love in Vancouver.</ul>\n              </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Footers\" global mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Additional</header>\n        <select title=\"Column Count\" name=\"showCard\">\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background9.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#f8e5e4\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container-fluid\">\n        <div class=\"d-flex justify-content-between\">\n            <div class mbr-if=\"showCard > 0\">\n                <ul mbr-text class=\"mbr-fonts-style mbr-list align-left\" data-app-selector=\".mbr-list\" mbr-theme-style=\"display-7\">\n                  <li>© KaMiFACE</li>\n                  <li>\n                </li></ul>\n              </div>\n           \n            <div class mbr-if=\"showCard > 1\">\n                <ul mbr-text class=\"mbr-fonts-style mbr-list\" data-app-selector=\".mbr-list\" mbr-theme-style=\"display-7\">2020 - All rights reserved.</ul>\n              </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "footer2-e",
           "_isUserblock": true,
           "_sourceTheme": "luxurym4",
@@ -2069,8 +2069,8 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "",
-          "_customCSS": "",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div id=\"qrcode\" style=\"\n\tposition: fixed;\n\tright: 8px;\n\tbottom: 8px;\n\twidth: 100px;\n    color: white;\n    text-align: center\">\n    <img src=\"assets/images/kamifaceqr.png\" alt=\"\" style=\"width: 100%\">\n\t<p style=\"color: black; font-size: 1em;\">微信号 m80802200</p>\n\t\n\t<!-- <div style=\"text-align: center;\">扫一扫</div> -->\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 0 0;\n  color: #777;\n  text-align: center;\n  z-index: 9999;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
             "Extension"
@@ -2083,8 +2083,8 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div id=\"qrcode\" style=\"\n\tposition: fixed;\n\tright: 8px;\n\tbottom: 8px;\n\twidth: 100px;\n    color: white;\n    text-align: center\">\n    <img src=\"assets/images/kamifaceqr.png\" alt=\"\" style=\"width: 100%\">\n\t<p style=\"color: black; font-size: 1em;\">微信号 m80802200</p>\n\t\n\t<!-- <div style=\"text-align: center;\">扫一扫</div> -->\n</div>",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 0 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "_customHTML": "",
+          "_customCSS": "",
           "alias": "code-editor",
           "_tags": [
             "Extension"

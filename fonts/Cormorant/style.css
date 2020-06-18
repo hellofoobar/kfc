@@ -1,0 +1,70 @@
+@font-face {
+   font-family: 'Cormorant';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///Users/mlgb/Desktop/KaMiFACE//fonts/Cormorant/300.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Cormorant';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///Users/mlgb/Desktop/KaMiFACE//fonts/Cormorant/500.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Cormorant';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///Users/mlgb/Desktop/KaMiFACE//fonts/Cormorant/600.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Cormorant';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///Users/mlgb/Desktop/KaMiFACE//fonts/Cormorant/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Cormorant';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///Users/mlgb/Desktop/KaMiFACE//fonts/Cormorant/300italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Cormorant';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///Users/mlgb/Desktop/KaMiFACE//fonts/Cormorant/regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Cormorant';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///Users/mlgb/Desktop/KaMiFACE//fonts/Cormorant/italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Cormorant';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///Users/mlgb/Desktop/KaMiFACE//fonts/Cormorant/500italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Cormorant';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///Users/mlgb/Desktop/KaMiFACE//fonts/Cormorant/600italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Cormorant';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///Users/mlgb/Desktop/KaMiFACE//fonts/Cormorant/700italic.ttf') format('truetype');
+}
